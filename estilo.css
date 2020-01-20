@@ -1,0 +1,63 @@
+body {
+	background: #fbfbfb;			
+	font-family: "Times New Roman", Times, sans-serif;
+}
+.grupo-painel {
+	margin: 11vh 17vw;	
+}
+.grupo-painel h1{
+	padding-bottom: 2vh;
+	font-style: italic;
+	color: darkgreen;
+	text-shadow: 29px 9px 20px #000;
+	font-family: Lucida Sans Unicode;				
+}
+div.painel {
+	display: inline-grid;				
+	transition: 1.2s;
+	box-shadow: -2px 12px 10px #777;
+	border-radius: 9px;
+	padding-left: 2vw;
+	width: 18vw;
+	height: 60vh;
+	background: white;	
+	border: 1px gray solid;
+}			
+div.painel:hover {
+	transform: scale(1.05);
+	box-shadow: -4px 12px 15px #007700;
+}			
+.cabecalho-painel {						
+	border-bottom: .5px grey solid;
+	max-height: 25vh;
+}
+.cabecalho-painel h2 {
+	color: orange;
+}
+.cabecalho-painel h3 {
+	color: purple;
+}
+.cabecalho-painel button {
+	width: 15vw;
+	height: 5vh;
+	background: linear-gradient(orange, yellow);
+	color: purple;
+	font: 16 Arial;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	font: 14pt;				
+}
+.cabecalho-painel button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.corpo-painel {
+	
+}
+ul {
+	list-style-type: none;
+}
+ul li:before {
+	content: '✓.  ';
+}
